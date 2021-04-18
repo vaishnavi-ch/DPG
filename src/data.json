@@ -1,0 +1,1191 @@
+[
+    {
+        "id": "apache-fineract",
+        "name": "Apache Fineract",
+        "description": "Fineract provides a reliable, robust, and affordable solution for entrepreneurs, financial institutions, and service providers to offer financial services to the world’s 2 billion underbanked and unbanked.",
+        "website": "https://fineract.apache.org",
+        "license": [
+          {
+            "spdx": "Apache-2.0",
+            "licenseURL": "https://github.com/apache/fineract/blob/develop/LICENSE_SOURCE"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 1,
+            "evidenceURL": "https://www.globenewswire.com/news-release/2017/04/24/970151/0/en/The-Apache-Software-Foundation-Announces-Apache-Fineract-as-a-Top-Level-Project.html"
+          },
+          {
+            "SDGNumber": 16,
+            "evidenceURL": "https://www.globenewswire.com/news-release/2017/04/24/970151/0/en/The-Apache-Software-Foundation-Announces-Apache-Fineract-as-a-Top-Level-Project.html"
+          },
+          {
+            "SDGNumber": 17,
+            "evidenceURL": "https://www.globenewswire.com/news-release/2017/04/24/970151/0/en/The-Apache-Software-Foundation-Announces-Apache-Fineract-as-a-Top-Level-Project.html"
+          }
+        ],
+        "sectors": [],
+        "type": [
+          "software"
+        ],
+        "repositoryURL": "https://github.com/apache/fineract",
+        "organizations": [
+          {
+            "name": "The Apache Software Foundation",
+            "website": "https://apache.org",
+            "org_type": "owner"
+          },
+          {
+            "name": "Mifos",
+            "website": "https://mifos.org",
+            "org_type": "owner"
+          }
+        ],
+        "stage": "DPG",
+        "locations": {
+            "developmentCountries": [
+              "India",
+              "Kenya",
+              "Germany",
+              "Ireland",
+              "USA",
+              "Australia",
+              "Mexico",
+              "South Africa",
+              "Canada",
+              "Philippines",
+              "Cameroon",
+              "Finland",
+              "Switzerland",
+              "Uganda",
+              "Hungary",
+              "Tunisia",
+              "Lebanon",
+              "Argentina",
+              "Uruguay",
+              "Philippines",
+              "Sierra Leone",
+              "Singapore"
+            ],
+            "deploymentCountries": [
+              "India",
+              "Mexico",
+              "Kenya",
+              "Burundi",
+              "Rwanda",
+              "Uganda",
+              "Ethiopia",
+              "Tanzania",
+              "South Africa",
+              "Namibia",
+              "Mozambique",
+              "Nigeria",
+              "Senegal",
+              "Ghana",
+              "Sierra Leone",
+              "United Kingdom",
+              "Germany",
+              "Spain",
+              "Philippines",
+              "Myanmar",
+              "China",
+              "Vietnam",
+              "Australia",
+              "Peru",
+              "Honduras",
+              "Nicaragua",
+              "Argentina",
+              "Colombia",
+              "Dominican Republic",
+              "Tunisia",
+              "Jordan",
+              "Lebanon",
+              "Laos",
+              "Vietnam",
+              "Singapore"
+            ]
+          }
+      },
+      {
+        "id": "bahmni",
+        "name": "Bahmni",
+        "description": "Open Source Comprehensive Electronic Medical Record System built on top of OpenMRS, OpenELIS and OpenERP",
+        "website": "https://www.bahmni.org",
+        "license": [
+          {
+            "spdx": "AGPL-3.0",
+            "licenseURL": "https://www.bahmni.org/license"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 3,
+            "evidenceText": "Over 500 implementations across 50 countries - predominantly in Africa and Asia. Millions of patients across the world have benefited from Bahmni as their stretched doctors and caregivers have used the system to track and monitor patient health and records. The endTB project that tested the latest anti-biotics (Bedqualine and Delamanid) was run on Bahmni."
+          },
+          {
+            "SDGNumber": 10,
+            "evidenceText": "Over 500 implementations across 50 countries - predominantly in Africa and Asia. Millions of patients across the world have benefited from Bahmni as their stretched doctors and caregivers have used the system to track and monitor patient health and records. The endTB project that tested the latest anti-biotics (Bedqualine and Delamanid) was run on Bahmni."
+          },
+          {
+            "SDGNumber": 17,
+            "evidenceText": "Over 500 implementations across 50 countries - predominantly in Africa and Asia. Millions of patients across the world have benefited from Bahmni as their stretched doctors and caregivers have used the system to track and monitor patient health and records. The endTB project that tested the latest anti-biotics (Bedqualine and Delamanid) was run on Bahmni."
+          }
+        ],
+        "sectors": [
+          "Health"
+        ],
+        "type": [
+          "software"
+        ],
+        "repositoryURL": "https://github.com/Bahmni/bahmni-core",
+        "organizations": [
+          {
+            "name": "Bahmni",
+            "website": "https://bahmni.org",
+            "org_type": "owner"
+          }
+        ],
+        "stage": "DPG",
+        "locations": {
+            "developmentCountries": [
+              "India",
+              "USA"
+            ],
+            "deploymentCountries": [
+              "India",
+              "Lesotho",
+              "Cambodia",
+              "Nepal",
+              "Bangladesh",
+              "Bhutan",
+              "Sierra Leone",
+              "Uganda",
+              "Pakistan",
+              "Indonesia",
+              "South Africa",
+              "Kenya",
+              "Ethiopia",
+              "Philippines",
+              "Haiti",
+              "Zambia",
+              "Papua New Guinea",
+              "Jordan",
+              "Republic of Congo",
+              "Iraq",
+              "Malawi",
+              "Belarus",
+              "Myanmar",
+              "Mozambique",
+              "eSwatini (former Swaziland)",
+              "Armenia",
+              "Georgia",
+              "Kyrgyzstan",
+              "Ukraine",
+              "Zimbabwe"
+            ]
+          }
+      },
+      {
+        "id": "mojaloop",
+        "name": "Mojaloop",
+        "description": "Open source software for creating payment platforms that will help unbanked people access digital financial services.",
+        "website": "https://mojaloop.io/",
+        "license": [
+          {
+            "spdx": "Apache-2.0",
+            "licenseURL": "https://github.com/mojaloop/mojaloop/blob/master/LICENSE.md"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 1,
+            "evidenceURL": "https://mojaloop.io/advancing-financial-inclusion-by-developing-solutions-for-women-by-women/"
+          },
+          {
+            "SDGNumber": 9,
+            "evidenceURL": "https://mojaloop.io/advancing-financial-inclusion-by-developing-solutions-for-women-by-women/"
+          },
+          {
+            "SDGNumber": 10,
+            "evidenceURL": "https://mojaloop.io/advancing-financial-inclusion-by-developing-solutions-for-women-by-women/"
+          },
+          {
+            "SDGNumber": 16,
+            "evidenceURL": "https://mojaloop.io/advancing-financial-inclusion-by-developing-solutions-for-women-by-women/"
+          },
+          {
+            "SDGNumber": 17,
+            "evidenceURL": "https://mojaloop.io/advancing-financial-inclusion-by-developing-solutions-for-women-by-women/"
+          }
+        ],
+        "sectors": [
+          "Economics/Finance",
+          "Digital/Data/Tech"
+        ],
+        "type": [
+          "software"
+        ],
+        "repositoryURL": "https://github.com/mojaloop/mojaloop",
+        "organizations": [
+          {
+            "name": "MojaLoop",
+            "website": "https://mojaloop.io/",
+            "org_type": "owner"
+          },
+          {
+            "name": "Bill & Melinda Gates Foundation",
+            "website": "https://www.gatesfoundation.org",
+            "org_type": "funder"
+          }
+        ],
+        "locations": {
+          "developmentCountries": [
+            "United States",
+            "London",
+            "Kenya",
+            "South Africa",
+            "India",
+            "Philippines",
+            "Singapore"
+          ],
+          "deploymentCountries": [
+            "Tanzania",
+            "Uganda",
+            "Côte d'Ivoire"
+          ]
+        },
+        "stage": "DPG"
+      },
+      {
+        "id": "dhis2",
+        "name": "DHIS2",
+        "aliases": [
+          "District Health Information System 2"
+        ],
+        "description": "DHIS2 is a free, open-source, fully customizable platform for collecting, analyzing, visualizing, and sharing aggregate and individual-data for district-level, national, regional, and international system and program management in health, education, and other domains.",
+        "website": "https://www.dhis2.org/",
+        "license": [
+          {
+            "spdx": "BSD-3-Clause",
+            "licenseURL": "https://github.com/dhis2/dhis2-core/blob/master/LICENSE"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 3,
+            "evidenceText": "DHIS2 is the world's largest Health Management Information System platform, and is currently in use in more than 73 low- and middle-income countries, 60 are deployed at national scale. DHIS2 is also used by national health authorities and international health programs and organizations (such as WHO, Pepfar, The Global Fund, Gavi) for management of health programs related to specific diseases, such as HIV, TB, Malaria, and others. In addition, during the COVID-19 pandemic, at least 36 countries rapidly deployed DHIS2 for national pandemic response.",
+            "evidenceURL": "Additional information:\nAbout DHIS2: https://www.dhis2.org/about\nOverview of DHIS2 deployments: https://www.dhis2.org/in-action\nDHIS2 for COVID-19 surveillance: https://www.dhis2.org/covid-19"
+          },
+          {
+            "SDGNumber": 4,
+            "evidenceText": "DHIS2 is also now being deployed as an Education Management Information System (EMIS) in several countries, which facilitates more effective triangulation of data between health and education programs (for example, vaccination campaigns targeting school-aged children), as well as supporting purely education-related goals.",
+            "evidenceURL": "DHIS2 for Education: https://www.dhis2.org/education"
+          },
+          {
+            "SDGNumber": 17,
+            "evidenceURL": "The HISP mission statement: https://www.mn.uio.no/ifi/english/research/networks/hisp/\nSelection of HISP research related to DHIS2: https://www.mn.uio.no/ifi/english/research/groups/is/publications/"
+          }
+        ],
+        "sectors": [
+          "Health"
+        ],
+        "type": [
+          "software"
+        ],
+        "repositoryURL": "https://github.com/dhis2/dhis2-core",
+        "organizations": [
+          {
+            "name": "Health Information Systems Programme (HISP), University of Oslo",
+            "website": "https://www.mn.uio.no/ifi/english/research/networks/hisp/",
+            "org_type": "owner"
+          },
+          {
+            "name": "Norad",
+            "website": "https://norad.no",
+            "org_type": "funder"
+          }
+        ],
+        "locations": {
+          "developmentCountries": [
+            "Norway",
+            "South Africa"
+          ],
+          "deploymentCountries": [
+            "Afghanistan",
+            "Algeria",
+            "Angola",
+            "Bangladesh",
+            "Benin",
+            "Bhutan",
+            "Botswana",
+            "Burkina Faso",
+            "Burundi",
+            "Cambodia",
+            "Cameroon",
+            "Cape Verde",
+            "Central African Rep.",
+            "Chad",
+            "Colombia",
+            "Comoros",
+            "Dem. Rep. Congo",
+            "Djibouti",
+            "East Timor",
+            "Eritrea",
+            "Ethiopia",
+            "Ghana",
+            "Grenada",
+            "Guinea",
+            "Guinea Bissau",
+            "Haiti",
+            "Honduras",
+            "India",
+            "Indonesia",
+            "Ivory Coast",
+            "Kenya",
+            "Laos",
+            "Lebanon",
+            "Lesotho",
+            "Liberia",
+            "Libya",
+            "Madagascar",
+            "Malawi",
+            "Maldives",
+            "Mali",
+            "Mauritania",
+            "Mongolia",
+            "Mozambique",
+            "Myanmar",
+            "Namibia",
+            "Nepal",
+            "Niger",
+            "Nigeria",
+            "Pakistan",
+            "Palestine",
+            "Republic of the Congo",
+            "Rwanda",
+            "Sao Tome",
+            "Senegal",
+            "Sierra Leone",
+            "Solomon Islands",
+            "Somalia",
+            "Somaliland",
+            "South Africa",
+            "South Sudan",
+            "Sri Lanka",
+            "Sudan",
+            "Tajikistan",
+            "Tanzania",
+            "The Gambia",
+            "Togo",
+            "Tonga",
+            "Uganda",
+            "Vanuatu",
+            "Vietnam",
+            "Yemen",
+            "Zambia",
+            "Zanzibar",
+            "Zimbabwe"
+          ]
+        },
+        "stage": "DPG"
+      },
+      {
+        "id": "met-norway-weather-api",
+        "name": "MET Norway Weather API",
+        "description": "Free digital access to high-quality, reliable and user-friendly 10-day weather forecast data for any geolocation in the world. Provides an open interface to a world weather data produced by MET Norway.",
+        "website": "https://developer.yr.no/",
+        "license": [
+          {
+            "spdx": "CC-BY-4.0",
+            "licenseURL": "https://developer.yr.no/doc/License/"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 2,
+            "evidenceText": "The NORAD funded project - Weather and Climate Services in Tanzania and Malawi as Digital Public Goods: Exploring the benefits of using Digital Public Goods to strengthen and add value to weather and climate services - explores the potential benefits of integrating Digital Public Goods (DPGs) innovation as a tool and mechanism for enhancing provision of weather and climate services. The primary goal is to use DPGs as a tool to improve the weather and climate services by broadening and enhancing access to and utility of data, tools and infrastructure in Tanzania and Malawi (more countries may be included), as well as improvement related to heightened competencies at TMA and DCCMS. The improved services should support the achievement of the UN's Sustainable Development Goals (SDGs), provide socio-economic benefits for Tanzania and Malawi, and make TMA and DCCMS better equipped to adequately respond to ever increasing demand of timely and high resolution weather and climate information in the context of a changing climate and thus handle competition from global actors in the weather enterprise.",
+            "evidenceURL": "https://www.norad.no/aktuelt/nyheter/2019/skal-gi-gratis-varvarsel-til-afrika/ (Norwegian only)\nhttps://www.facebook.com/Norad/videos/v%C3%A6rvarsel-kan-redde-liv-digitale-fellesgoder-var-stikkordet-da-meteorologisk-ins/516510358948902/\nhttps://ms-my.facebook.com/Norad/videos/-v%C3%A6rvarsel-kan-redde-liv-v%C3%A6rvarsel-som-et-gratis-digitalt-fellesgode-er-blitt-en/842623346186886/\nhttps://www.norad.no/en/front/about-norad/news/2019/the-norad-conference-2019-digitalisation-and-development/\nhttps://www.youtube.com/watch?v=iNC-h6r0Kgc"
+          },
+          {
+            "SDGNumber": 3,
+            "evidenceText": "The NORAD funded project - Weather and Climate Services in Tanzania and Malawi as Digital Public Goods: Exploring the benefits of using Digital Public Goods to strengthen and add value to weather and climate services - explores the potential benefits of integrating Digital Public Goods (DPGs) innovation as a tool and mechanism for enhancing provision of weather and climate services. The primary goal is to use DPGs as a tool to improve the weather and climate services by broadening and enhancing access to and utility of data, tools and infrastructure in Tanzania and Malawi (more countries may be included), as well as improvement related to heightened competencies at TMA and DCCMS. The improved services should support the achievement of the UN's Sustainable Development Goals (SDGs), provide socio-economic benefits for Tanzania and Malawi, and make TMA and DCCMS better equipped to adequately respond to ever increasing demand of timely and high resolution weather and climate information in the context of a changing climate and thus handle competition from global actors in the weather enterprise.",
+            "evidenceURL": "https://www.norad.no/aktuelt/nyheter/2019/skal-gi-gratis-varvarsel-til-afrika/ (Norwegian only)\nhttps://www.facebook.com/Norad/videos/v%C3%A6rvarsel-kan-redde-liv-digitale-fellesgoder-var-stikkordet-da-meteorologisk-ins/516510358948902/\nhttps://ms-my.facebook.com/Norad/videos/-v%C3%A6rvarsel-kan-redde-liv-v%C3%A6rvarsel-som-et-gratis-digitalt-fellesgode-er-blitt-en/842623346186886/\nhttps://www.norad.no/en/front/about-norad/news/2019/the-norad-conference-2019-digitalisation-and-development/\nhttps://www.youtube.com/watch?v=iNC-h6r0Kgc"
+          },
+          {
+            "SDGNumber": 9,
+            "evidenceText": "The NORAD funded project - Weather and Climate Services in Tanzania and Malawi as Digital Public Goods: Exploring the benefits of using Digital Public Goods to strengthen and add value to weather and climate services - explores the potential benefits of integrating Digital Public Goods (DPGs) innovation as a tool and mechanism for enhancing provision of weather and climate services. The primary goal is to use DPGs as a tool to improve the weather and climate services by broadening and enhancing access to and utility of data, tools and infrastructure in Tanzania and Malawi (more countries may be included), as well as improvement related to heightened competencies at TMA and DCCMS. The improved services should support the achievement of the UN's Sustainable Development Goals (SDGs), provide socio-economic benefits for Tanzania and Malawi, and make TMA and DCCMS better equipped to adequately respond to ever increasing demand of timely and high resolution weather and climate information in the context of a changing climate and thus handle competition from global actors in the weather enterprise.",
+            "evidenceURL": "https://www.norad.no/aktuelt/nyheter/2019/skal-gi-gratis-varvarsel-til-afrika/ (Norwegian only)\nhttps://www.facebook.com/Norad/videos/v%C3%A6rvarsel-kan-redde-liv-digitale-fellesgoder-var-stikkordet-da-meteorologisk-ins/516510358948902/\nhttps://ms-my.facebook.com/Norad/videos/-v%C3%A6rvarsel-kan-redde-liv-v%C3%A6rvarsel-som-et-gratis-digitalt-fellesgode-er-blitt-en/842623346186886/\nhttps://www.norad.no/en/front/about-norad/news/2019/the-norad-conference-2019-digitalisation-and-development/\nhttps://www.youtube.com/watch?v=iNC-h6r0Kgc"
+          },
+          {
+            "SDGNumber": 13,
+            "evidenceText": "The NORAD funded project - Weather and Climate Services in Tanzania and Malawi as Digital Public Goods: Exploring the benefits of using Digital Public Goods to strengthen and add value to weather and climate services - explores the potential benefits of integrating Digital Public Goods (DPGs) innovation as a tool and mechanism for enhancing provision of weather and climate services. The primary goal is to use DPGs as a tool to improve the weather and climate services by broadening and enhancing access to and utility of data, tools and infrastructure in Tanzania and Malawi (more countries may be included), as well as improvement related to heightened competencies at TMA and DCCMS. The improved services should support the achievement of the UN's Sustainable Development Goals (SDGs), provide socio-economic benefits for Tanzania and Malawi, and make TMA and DCCMS better equipped to adequately respond to ever increasing demand of timely and high resolution weather and climate information in the context of a changing climate and thus handle competition from global actors in the weather enterprise.",
+            "evidenceURL": "https://www.norad.no/aktuelt/nyheter/2019/skal-gi-gratis-varvarsel-til-afrika/ (Norwegian only)\nhttps://www.facebook.com/Norad/videos/v%C3%A6rvarsel-kan-redde-liv-digitale-fellesgoder-var-stikkordet-da-meteorologisk-ins/516510358948902/\nhttps://ms-my.facebook.com/Norad/videos/-v%C3%A6rvarsel-kan-redde-liv-v%C3%A6rvarsel-som-et-gratis-digitalt-fellesgode-er-blitt-en/842623346186886/\nhttps://www.norad.no/en/front/about-norad/news/2019/the-norad-conference-2019-digitalisation-and-development/\nhttps://www.youtube.com/watch?v=iNC-h6r0Kgc"
+          },
+          {
+            "SDGNumber": 15,
+            "evidenceText": "The NORAD funded project - Weather and Climate Services in Tanzania and Malawi as Digital Public Goods: Exploring the benefits of using Digital Public Goods to strengthen and add value to weather and climate services - explores the potential benefits of integrating Digital Public Goods (DPGs) innovation as a tool and mechanism for enhancing provision of weather and climate services. The primary goal is to use DPGs as a tool to improve the weather and climate services by broadening and enhancing access to and utility of data, tools and infrastructure in Tanzania and Malawi (more countries may be included), as well as improvement related to heightened competencies at TMA and DCCMS. The improved services should support the achievement of the UN's Sustainable Development Goals (SDGs), provide socio-economic benefits for Tanzania and Malawi, and make TMA and DCCMS better equipped to adequately respond to ever increasing demand of timely and high resolution weather and climate information in the context of a changing climate and thus handle competition from global actors in the weather enterprise.",
+            "evidenceURL": "https://www.norad.no/aktuelt/nyheter/2019/skal-gi-gratis-varvarsel-til-afrika/ (Norwegian only)\nhttps://www.facebook.com/Norad/videos/v%C3%A6rvarsel-kan-redde-liv-digitale-fellesgoder-var-stikkordet-da-meteorologisk-ins/516510358948902/\nhttps://ms-my.facebook.com/Norad/videos/-v%C3%A6rvarsel-kan-redde-liv-v%C3%A6rvarsel-som-et-gratis-digitalt-fellesgode-er-blitt-en/842623346186886/\nhttps://www.norad.no/en/front/about-norad/news/2019/the-norad-conference-2019-digitalisation-and-development/\nhttps://www.youtube.com/watch?v=iNC-h6r0Kgc"
+          },
+          {
+            "SDGNumber": 17,
+            "evidenceText": "The NORAD funded project - Weather and Climate Services in Tanzania and Malawi as Digital Public Goods: Exploring the benefits of using Digital Public Goods to strengthen and add value to weather and climate services - explores the potential benefits of integrating Digital Public Goods (DPGs) innovation as a tool and mechanism for enhancing provision of weather and climate services. The primary goal is to use DPGs as a tool to improve the weather and climate services by broadening and enhancing access to and utility of data, tools and infrastructure in Tanzania and Malawi (more countries may be included), as well as improvement related to heightened competencies at TMA and DCCMS. The improved services should support the achievement of the UN's Sustainable Development Goals (SDGs), provide socio-economic benefits for Tanzania and Malawi, and make TMA and DCCMS better equipped to adequately respond to ever increasing demand of timely and high resolution weather and climate information in the context of a changing climate and thus handle competition from global actors in the weather enterprise.",
+            "evidenceURL": "https://www.norad.no/aktuelt/nyheter/2019/skal-gi-gratis-varvarsel-til-afrika/ (Norwegian only)\nhttps://www.facebook.com/Norad/videos/v%C3%A6rvarsel-kan-redde-liv-digitale-fellesgoder-var-stikkordet-da-meteorologisk-ins/516510358948902/\nhttps://ms-my.facebook.com/Norad/videos/-v%C3%A6rvarsel-kan-redde-liv-v%C3%A6rvarsel-som-et-gratis-digitalt-fellesgode-er-blitt-en/842623346186886/\nhttps://www.norad.no/en/front/about-norad/news/2019/the-norad-conference-2019-digitalisation-and-development/\nhttps://www.youtube.com/watch?v=iNC-h6r0Kgc"
+          }
+        ],
+        "sectors": [
+          "Climate",
+          "Digital/Data/Tech"
+        ],
+        "type": [
+          "data"
+        ],
+        "organizations": [
+          {
+            "name": "Norwegian Meteorological Insitute",
+            "website": "https://www.met.no/en",
+            "org_type": "owner"
+          }
+        ],
+        "locations": {
+          "developmentCountries": [
+            "Norway"
+          ],
+          "deploymentCountries": [
+            "Met Norway Weather has universal design and coverage, and serves all countries in the world with geospecific user-oriented data dissemination (supporting more than 12 million unique geolocations world-wide on Yr). The usage is largest in Norway and neighbouring countries but also relatively large in low- and middle-income countries. We have also written feedback from users that Yr and Met Norway Weather are being used and adapted for use in a range of low- and middle-income countries. To our understanding, Met Norway Weather removes barriers to access and usage in the availability of open, user-oriented, timely, high-quality weather forecast information. List of countries where recent requests to MET Norway Weather have originated (ordered after number of requests):",
+            "Ireland",
+            "Netherlands",
+            "Norway",
+            "United States of America",
+            "Germany",
+            "United Kingdom of Great Britain and Northern Ireland",
+            "Russian Federation",
+            "France",
+            "Sweden",
+            "Italy",
+            "Poland",
+            "India",
+            "Canada",
+            "Czechia",
+            "China",
+            "Spain",
+            "Denmark",
+            "Australia",
+            "Ukraine",
+            "Brazil",
+            "Switzerland",
+            "Japan",
+            "Austria",
+            "Slovakia",
+            "Greece",
+            "Belgium",
+            "Georgia",
+            "Seychelles",
+            "Romania",
+            "Finland",
+            "Hungary",
+            "Korea (the Republic of Korea)",
+            "Portugal",
+            "Latvia",
+            "Bulgaria",
+            "Taiwan",
+            "Turkey",
+            "Mexico",
+            "Israel",
+            "South Africa",
+            "Argentina",
+            "Indonesia",
+            "Serbia",
+            "Viet Nam",
+            "Thailand",
+            "Estonia",
+            "Singapore",
+            "Belarus",
+            "Chile",
+            "Kazakhstan",
+            "New Zealand",
+            "Croatia",
+            "Hong Kong",
+            "Malaysia",
+            "Iran",
+            "Lithuania",
+            "Egypt",
+            "Slovenia",
+            "Pakistan",
+            "Colombia",
+            "United Arab Emirates",
+            "Saudi Arabia",
+            "Philippines",
+            "Maldives",
+            "Morocco",
+            "Uzbekistan",
+            "Algeria",
+            "Moldova",
+            "Kenya",
+            "Nepal",
+            "Bangladesh",
+            "Luxembourg",
+            "Iceland",
+            "Azerbaijan",
+            "Nigeria",
+            "Albania",
+            "Uruguay",
+            "Lebanon",
+            "Ecuador",
+            "Macedonia",
+            "Peru",
+            "Jordan",
+            "Iraq",
+            "Armenia",
+            "Dominican Republic",
+            "Bosnia and Herzegovina",
+            "Cyprus",
+            "Faroe Islands",
+            "Tunisia",
+            "Jamaica",
+            "Malta",
+            "Kyrgyzstan",
+            "Sri Lanka",
+            "Qatar",
+            "Kuwait",
+            "Mongolia",
+            "Costa Rica",
+            "El Salvador",
+            "Panama",
+            "Puerto Rico",
+            "Cambodia",
+            "Oman",
+            "Tanzania",
+            "Montenegro",
+            "Turkmenistan",
+            "Honduras",
+            "Libya",
+            "Bahrain",
+            "Tajikistan",
+            "Venezuela",
+            "Ghana",
+            "Guatemala",
+            "Macao",
+            "Mali",
+            "Bolivia",
+            "Bahamas",
+            "Trinidad and Tobago",
+            "Afghanistan",
+            "Paraguay",
+            "Réunion",
+            "Syrian Arab Republic",
+            "Guam",
+            "Senegal",
+            "Sudan",
+            "Congo (the Democratic Republic of the Congo)",
+            "Côte d'Ivoire",
+            "Palestine",
+            "Zambia",
+            "Guadeloupe",
+            "Angola",
+            "Myanmar",
+            "Gibraltar",
+            "Greenland",
+            "Mozambique",
+            "Martinique",
+            "Cameroon",
+            "Benin",
+            "Brunei Darussalam",
+            "South Sudan",
+            "Zimbabwe",
+            "Cuba",
+            "Andorra",
+            "Barbados",
+            "Madagascar",
+            "Namibia",
+            "New Caledonia",
+            "Curaçao",
+            "Isle of Man",
+            "Ethiopia",
+            "Jersey",
+            "Suriname",
+            "Nicaragua",
+            "Central African Republic",
+            "Mauritius",
+            "Guernsey",
+            "French Polynesia",
+            "Saint Lucia",
+            "Lao People's Democratic Republic",
+            "Burundi",
+            "Sao Tome and Principe",
+            "Rwanda",
+            "Yemen",
+            "Åland Islands",
+            "Botswana",
+            "Burkina Faso",
+            "French Guiana",
+            "Cayman Islands",
+            "Liechtenstein",
+            "Aruba",
+            "Bermuda",
+            "Antigua and Barbuda",
+            "Guinea",
+            "Uganda",
+            "Belize",
+            "Gabon",
+            "Somalia",
+            "Grenada",
+            "Malawi",
+            "Congo",
+            "Guyana",
+            "Eswatini",
+            "Monaco",
+            "Dominica",
+            "Togo",
+            "Virgin Islands (U.S.)",
+            "Gambia",
+            "San Marino",
+            "Niger",
+            "Fiji",
+            "Papua New Guinea",
+            "Haiti",
+            "Saint Kitts and Nevis",
+            "Mauritania",
+            "Djibouti",
+            "Bonaire, Sint Eustatius, and Saba",
+            "Lesotho",
+            "Liberia",
+            "Bhutan",
+            "Anguilla",
+            "Vanuatu",
+            "Timor-Leste",
+            "Sint Maarten (Dutch part)",
+            "Saint Pierre and Miquelon",
+            "Turks and Caicos Islands",
+            "Sierra Leone",
+            "Cabo Verde",
+            "Saint Vincent and the Grenadines",
+            "Chad",
+            "United States Minor Outlying Islands",
+            "Tonga",
+            "Equatorial Guinea",
+            "Virgin Islands (British)",
+            "Comoros",
+            "Mayotte",
+            "Northern Mariana Islands",
+            "Saint Martin (French part)",
+            "Svalbard and Jan Mayen",
+            "Micronesia",
+            "Samoa",
+            "Solomon Islands",
+            "Nauru",
+            "Falkland Islands"
+          ]
+        },
+        "stage": "DPG"
+      },
+      {
+        "id": "mifos-community-app",
+        "name": "Mifos Community App",
+        "description": "This is the default web application built on top of the MifosX platform for the mifos user community.",
+        "website": "https://mifos.org",
+        "license": [
+          {
+            "spdx": "MPL-2.0",
+            "licenseURL": "https://github.com/openMF/community-app/blob/develop/LICENSE.txt"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 1,
+            "evidenceText": "The Mifos Initiative is a global 501(c)3 fintech non-profit  leveraging the cloud, mobile & open source community to democratize financial services worldwide and digitally transform the world?s 3 billion poor and underbanked. We aim to create a world of 3 Billion Maries  where everyone has access to the financial resources needed to create a better life for themselves and their family.  More than 15 million clients supported by 400+ fintechs and financial institutions using our open APIs to power their solutions. \n\nWe provide a set of  Open Source Buildings Blocks for digital financial services consisting of re-usable and pluggable components that support the common core banking requirements. Our end to end open source architecture for digital financial services can power an an entire digital financial services ecosystem with multiple layers of open APIs at the solution and application level that fuel innovation on top of digital interoperable payment rails - Open Source Banking APIs for flexible account management from Mifos and Fineract, Open APIs for Payments Interoperability via Mojaloop, and app-level innovation enabled by Open Banking APIs and reference mobile apps."
+          },
+          {
+            "SDGNumber": 8,
+            "evidenceText": "The Mifos Initiative is a global 501(c)3 fintech non-profit  leveraging the cloud, mobile & open source community to democratize financial services worldwide and digitally transform the world?s 3 billion poor and underbanked. We aim to create a world of 3 Billion Maries  where everyone has access to the financial resources needed to create a better life for themselves and their family.  More than 15 million clients supported by 400+ fintechs and financial institutions using our open APIs to power their solutions. \n\nWe provide a set of  Open Source Buildings Blocks for digital financial services consisting of re-usable and pluggable components that support the common core banking requirements. Our end to end open source architecture for digital financial services can power an an entire digital financial services ecosystem with multiple layers of open APIs at the solution and application level that fuel innovation on top of digital interoperable payment rails - Open Source Banking APIs for flexible account management from Mifos and Fineract, Open APIs for Payments Interoperability via Mojaloop, and app-level innovation enabled by Open Banking APIs and reference mobile apps."
+          }
+        ],
+        "sectors": [],
+        "type": [
+          "software"
+        ],
+        "repositoryURL": "https://github.com/openMF/community-app",
+        "organizations": [
+          {
+            "name": "Mifos",
+            "website": "https://mifos.org",
+            "org_type": "owner"
+          }
+        ],
+        "locations": {
+          "developmentCountries": [
+            "India",
+            "USA",
+            "Germany",
+            "Africa",
+            "Netherlands",
+            "Canada",
+            "Kenya",
+            "Mexico",
+            "Hungary",
+            "United Kingdom"
+          ],
+          "deploymentCountries": [
+            "Kenya",
+            "South Africa",
+            "Nigeria",
+            "Rwanda",
+            "Ethiopia",
+            "Sierra Leone",
+            "Uganda",
+            "Hungary",
+            "United Kingdom",
+            "India",
+            "Philippines",
+            "Myanmar",
+            "Vietnam",
+            "Australia",
+            "Mexico",
+            "Peru",
+            "Colombia",
+            "Nicaragua",
+            "Honduras",
+            "Argentina",
+            "Uruguay",
+            "Nigeria",
+            "Cote D'Ivoire",
+            "Mozambique",
+            "Senegal",
+            "Tunisia",
+            "Lebanon",
+            "Spain",
+            "China",
+            "USA"
+          ]
+        },
+        "stage": "DPG"
+      },
+      {
+        "id": "modular-open-source-identity-platform",
+        "name": "Modular Open Source Identity Platform",
+        "aliases": [
+          "MOSIP"
+        ],
+        "description": "The Modular Open Source Identity Platform (MOSIP) helps Governments and other user organizations implement a digital, foundational identity system in a cost effective way.",
+        "website": "https://mosip.io/",
+        "license": [
+          {
+            "spdx": "MPL-2.0",
+            "licenseURL": "https://github.com/mosip/commons/blob/master/LICENSE"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 1,
+            "evidenceURL": "https://mosip.io/news-events/iiit-b-and-norad-announce-strategic-partnership-on-mosip-to-accelerate-sdgs-through-digital-identity"
+          },
+          {
+            "SDGNumber": 2,
+            "evidenceURL": "https://mosip.io/news-events/iiit-b-and-norad-announce-strategic-partnership-on-mosip-to-accelerate-sdgs-through-digital-identity"
+          },
+          {
+            "SDGNumber": 3,
+            "evidenceURL": "https://mosip.io/news-events/iiit-b-and-norad-announce-strategic-partnership-on-mosip-to-accelerate-sdgs-through-digital-identity"
+          },
+          {
+            "SDGNumber": 4,
+            "evidenceURL": "https://mosip.io/news-events/iiit-b-and-norad-announce-strategic-partnership-on-mosip-to-accelerate-sdgs-through-digital-identity"
+          },
+          {
+            "SDGNumber": 5,
+            "evidenceURL": "https://mosip.io/news-events/iiit-b-and-norad-announce-strategic-partnership-on-mosip-to-accelerate-sdgs-through-digital-identity"
+          },
+          {
+            "SDGNumber": 8,
+            "evidenceURL": "https://mosip.io/news-events/technology-contributors-coalition"
+          },
+          {
+            "SDGNumber": 9,
+            "evidenceURL": "https://mosip.io/news-events/mosip-presents-during-un-general-assembly-2019"
+          },
+          {
+            "SDGNumber": 10,
+            "evidenceURL": "https://mosip.io/news-events/iiit-b-ministry-of-peace-federal-democratic-republic-of-ethiopia-sign-mou-on-mosip"
+          },
+          {
+            "SDGNumber": 16,
+            "evidenceURL": "https://mosip.io/news-events/global-virtual-summit-on-digital-identity-for-refugees-mosip-presentation"
+          },
+          {
+            "SDGNumber": 17,
+            "evidenceURL": "https://mosip.io/news-events/global-virtual-summit-on-digital-identity-for-refugees-mosip-presentation"
+          }
+        ],
+        "sectors": [],
+        "type": [
+          "software",
+          "standard"
+        ],
+        "repositoryURL": "https://github.com/mosip/commons",
+        "organizations": [
+          {
+            "name": "MOSIP",
+            "website": "https://mosip.io/",
+            "org_type": "owner"
+          },
+          {
+            "name": "International Institute of Information Technology, Bangalore (IIIT-B)",
+            "website": "https://www.iiitb.ac.in/",
+            "org_type": "owner"
+          },
+          {
+            "name": "Bill & Melinda Gates Foundation",
+            "website": "https://www.gatesfoundation.org",
+            "org_type": "funder"
+          },
+          {
+            "name": "Omydiar Network",
+            "website": "https://www.omidyar.com",
+            "org_type": "funder"
+          }
+        ],
+        "locations": {
+          "developmentCountries": [
+            "India",
+            "Philippines"
+          ],
+          "deploymentCountries": [
+            "Philippines",
+            "Guinea"
+          ]
+        },
+        "stage": "DPG"
+      },
+      {
+        "id": "opencrvs",
+        "name": "OpenCRVS",
+        "aliases": [
+          "Open Civil Registration and Vital Statistics"
+        ],
+        "description": "OpenCRVS is an open-source software for civil registration, designed for low resource settings",
+        "website": "https://www.opencrvs.org/",
+        "license": [
+          {
+            "spdx": "MPL-2.0",
+            "licenseURL": "https://www.opencrvs.org/license"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 16,
+            "evidenceText": "OpenCRVS is a digital public good to help achieve universal civil registration and evidence-based decision making in all country contexts.\nOpenCRVS was created in direct response to: \nSDG Goal/Target 16.9: \"By 2030, provide legal identity for all, including birth registration\"\nIndicator: Proportion of children under 5 years whose births have been registered with a civil authority, by age\n addition (as of March 2017), 67 of the 230 SDG indicators can be measured effectively by using data derived from well-functioning CRVS systems, in particular for the numerators (births, deaths) and denominators (total population, live births, total deaths). These indicators cover 12 of the SDG 17 goals (Goals 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 16, and 17).",
+            "evidenceURL": "https://documentation.opencrvs.org/opencrvs-core/"
+          },
+          {
+            "SDGNumber": 17,
+            "evidenceText": "OpenCRVS is a digital public good to help achieve universal civil registration and evidence-based decision making in all country contexts.\nOpenCRVS was created in direct response to: \nSDG Goal/Target 17.18: \"By 2020? increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics\nrelevant in national contexts\"\nIndicator 1: Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance\nwith the Fundamental Principles of Official Statistics\nSDG Goal/Target 17.19: \"By 2030? support statistical capacity building in countries\"\nIndicator 2: Proportion of countries that have conducted at least one population and housing census in the last 10 years and have achieved 100 percent birth\nregistration and 80 percent death registration.\nIn addition (as of March 2017), 67 of the 230 SDG indicators can be measured effectively by using data derived from well-functioning CRVS systems, in particular for the numerators (births, deaths) and denominators (total population, live births, total deaths). These indicators cover 12 of the SDG 17 goals (Goals 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 16, and 17).",
+            "evidenceURL": "https://documentation.opencrvs.org/opencrvs-core/"
+          }
+        ],
+        "sectors": [],
+        "type": [
+          "software"
+        ],
+        "repositoryURL": "https://github.com/opencrvs/opencrvs-core",
+        "organizations": [
+          {
+            "name": "Plan International Australia",
+            "org_type": "owner"
+          }
+        ],
+        "locations": {
+          "developmentCountries": [
+            "United Kingdom",
+            "South Africa",
+            "Bangladesh"
+          ],
+          "deploymentCountries": [
+            "Bangladesh"
+          ]
+        },
+        "stage": "DPG"
+      },
+      {
+        "id": "openg2p",
+        "name": "OpenG2P",
+        "description": "OpenG2P stands for open government to person payments, and provides the tools needed to digitize large scale cash transfers with open source building blocks.",
+        "website": "https://openg2p.org/",
+        "license": [
+          {
+            "spdx": "GPL-3.0",
+            "licenseURL": "https://github.com/openg2p"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 1,
+            "evidenceText": "OpenG2P helps advance a number of SDGs by ensuring that the low-income people receive their cash transfers (for livelihoods, for education, for women etc.) digitally, in ways that supports their access and usage at affordable rates, and thereby creating pathways for them to save and access a diverse range of financial services.  OpenG2P by default leverages the entire ecosystem and therefore enables easy integration with identity and fintechs while keeping privacy and consent of users as key principles by design."
+          },
+          {
+            "SDGNumber": 2,
+            "evidenceText": "OpenG2P helps advance a number of SDGs by ensuring that the low-income people receive their cash transfers (for livelihoods, for education, for women etc.) digitally, in ways that supports their access and usage at affordable rates, and thereby creating pathways for them to save and access a diverse range of financial services.  OpenG2P by default leverages the entire ecosystem and therefore enables easy integration with identity and fintechs while keeping privacy and consent of users as key principles by design."
+          },
+          {
+            "SDGNumber": 3,
+            "evidenceText": "OpenG2P helps advance a number of SDGs by ensuring that the low-income people receive their cash transfers (for livelihoods, for education, for women etc.) digitally, in ways that supports their access and usage at affordable rates, and thereby creating pathways for them to save and access a diverse range of financial services.  OpenG2P by default leverages the entire ecosystem and therefore enables easy integration with identity and fintechs while keeping privacy and consent of users as key principles by design."
+          },
+          {
+            "SDGNumber": 4,
+            "evidenceText": "OpenG2P helps advance a number of SDGs by ensuring that the low-income people receive their cash transfers (for livelihoods, for education, for women etc.) digitally, in ways that supports their access and usage at affordable rates, and thereby creating pathways for them to save and access a diverse range of financial services.  OpenG2P by default leverages the entire ecosystem and therefore enables easy integration with identity and fintechs while keeping privacy and consent of users as key principles by design."
+          },
+          {
+            "SDGNumber": 5,
+            "evidenceText": "OpenG2P helps advance a number of SDGs by ensuring that the low-income people receive their cash transfers (for livelihoods, for education, for women etc.) digitally, in ways that supports their access and usage at affordable rates, and thereby creating pathways for them to save and access a diverse range of financial services.  OpenG2P by default leverages the entire ecosystem and therefore enables easy integration with identity and fintechs while keeping privacy and consent of users as key principles by design."
+          },
+          {
+            "SDGNumber": 6,
+            "evidenceText": "OpenG2P helps advance a number of SDGs by ensuring that the low-income people receive their cash transfers (for livelihoods, for education, for women etc.) digitally, in ways that supports their access and usage at affordable rates, and thereby creating pathways for them to save and access a diverse range of financial services.  OpenG2P by default leverages the entire ecosystem and therefore enables easy integration with identity and fintechs while keeping privacy and consent of users as key principles by design."
+          },
+          {
+            "SDGNumber": 7,
+            "evidenceText": "OpenG2P helps advance a number of SDGs by ensuring that the low-income people receive their cash transfers (for livelihoods, for education, for women etc.) digitally, in ways that supports their access and usage at affordable rates, and thereby creating pathways for them to save and access a diverse range of financial services.  OpenG2P by default leverages the entire ecosystem and therefore enables easy integration with identity and fintechs while keeping privacy and consent of users as key principles by design."
+          },
+          {
+            "SDGNumber": 8,
+            "evidenceText": "OpenG2P helps advance a number of SDGs by ensuring that the low-income people receive their cash transfers (for livelihoods, for education, for women etc.) digitally, in ways that supports their access and usage at affordable rates, and thereby creating pathways for them to save and access a diverse range of financial services.  OpenG2P by default leverages the entire ecosystem and therefore enables easy integration with identity and fintechs while keeping privacy and consent of users as key principles by design."
+          },
+          {
+            "SDGNumber": 10,
+            "evidenceText": "OpenG2P helps advance a number of SDGs by ensuring that the low-income people receive their cash transfers (for livelihoods, for education, for women etc.) digitally, in ways that supports their access and usage at affordable rates, and thereby creating pathways for them to save and access a diverse range of financial services.  OpenG2P by default leverages the entire ecosystem and therefore enables easy integration with identity and fintechs while keeping privacy and consent of users as key principles by design."
+          },
+          {
+            "SDGNumber": 17,
+            "evidenceText": "OpenG2P helps advance a number of SDGs by ensuring that the low-income people receive their cash transfers (for livelihoods, for education, for women etc.) digitally, in ways that supports their access and usage at affordable rates, and thereby creating pathways for them to save and access a diverse range of financial services.  OpenG2P by default leverages the entire ecosystem and therefore enables easy integration with identity and fintechs while keeping privacy and consent of users as key principles by design."
+          }
+        ],
+        "sectors": [],
+        "type": [
+          "software"
+        ],
+        "repositoryURL": "https://github.com/OpenG2P/openg2p-erp",
+        "organizations": [
+          {
+            "name": "Government of Sierra Leone",
+            "website": "https://www.dsti.gov.sl",
+            "org_type": "owner"
+          }
+        ],
+        "locations": {
+          "developmentCountries": [
+            "Sierra Leone"
+          ],
+          "deploymentCountries": [
+            "Sierra Leone"
+          ]
+        },
+        "stage": "DPG"
+      },
+      {
+        "id": "primero",
+        "name": "Primero",
+        "description": "A web app for confidential case management and incident monitoring in social welfare, child protection, and gender based violence.",
+        "website": "https://www.primero.org/",
+        "license": [
+          {
+            "spdx": "AGPL-3.0",
+            "licenseURL": "https://github.com/primeroIMS/primero/blob/maint_1.6/LICENSE"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 5,
+            "evidenceURL": "https://www.unicef.org/evaldatabase/files/EOI_Case_Study_Primero.pdf"
+          },
+          {
+            "SDGNumber": 8,
+            "evidenceURL": "https://www.unicef.org/evaldatabase/files/EOI_Case_Study_Primero.pdf"
+          },
+          {
+            "SDGNumber": 16,
+            "evidenceURL": "https://www.unicef.org/evaldatabase/files/EOI_Case_Study_Primero.pdf"
+          }
+        ],
+        "sectors": [
+          "Gender and Minority Groups",
+          "Humanitarian",
+          "Management"
+        ],
+        "type": [
+          "software"
+        ],
+        "repositoryURL": "https://github.com/primeroIMS/primero",
+        "organizations": [
+          {
+            "name": "UNICEF",
+            "website": "https://unicef.org",
+            "org_type": "owner"
+          }
+        ],
+        "locations": {
+          "developmentCountries": [
+            "United States"
+          ],
+          "deploymentCountries": [
+            "Sierra Leone",
+            "Jordan",
+            "Kenya",
+            "Burkina Faso",
+            "Lebanon",
+            "Tanzania",
+            "Iraq",
+            "Indonesia",
+            "Philippines",
+            "Nigeria",
+            "Cambodia"
+          ]
+        },
+        "stage": "DPG"
+      },
+      {
+        "id": "vips",
+        "name": "VIPS",
+        "description": "Open platform for automatic pest prediction in agriculture created by NIBIO, Norway",
+        "website": "https://nibio.no/en/services/vips",
+        "license": [
+          {
+            "spdx": "AGPL-3.0",
+            "licenseURL": "https://nibio.no/en/about-eng/software-licenses-and-agreements"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 2,
+            "evidenceText": "The aim of the software is to reduce the use of pesticides in agriculture without reducing agricultural yield. This provides a better economy for the farmer, less pesticides in the environment and less exposure to pesticides for the consumers. Since many of the algorithms are weather based, it also helps adaptation of agricultural practices in a changing climate.",
+            "evidenceURL": "https://nibio.no/en/news/nibio-innovation-alerts-farmers-of-agriculture-pests-in-africa-india-and-china"
+          },
+          {
+            "SDGNumber": 13,
+            "evidenceText": "The aim of the software is to reduce the use of pesticides in agriculture without reducing agricultural yield. This provides a better economy for the farmer, less pesticides in the environment and less exposure to pesticides for the consumers. Since many of the algorithms are weather based, it also helps adaptation of agricultural practices in a changing climate.",
+            "evidenceURL": "https://nibio.no/en/news/nibio-innovation-alerts-farmers-of-agriculture-pests-in-africa-india-and-china"
+          },
+          {
+            "SDGNumber": 15,
+            "evidenceText": "The aim of the software is to reduce the use of pesticides in agriculture without reducing agricultural yield. This provides a better economy for the farmer, less pesticides in the environment and less exposure to pesticides for the consumers. Since many of the algorithms are weather based, it also helps adaptation of agricultural practices in a changing climate.",
+            "evidenceURL": "https://nibio.no/en/news/nibio-innovation-alerts-farmers-of-agriculture-pests-in-africa-india-and-china"
+          }
+        ],
+        "sectors": [
+          "Agriculture",
+          "Climate"
+        ],
+        "type": [
+          "software"
+        ],
+        "repositoryURL": "https://gitlab.nibio.no/VIPS",
+        "organizations": [
+          {
+            "name": "NIBIO",
+            "website": "https://nibio.no",
+            "org_type": "owner"
+          }
+        ],
+        "locations": {
+          "developmentCountries": [
+            "Norway"
+          ],
+          "deploymentCountries": [
+            "Norway",
+            "Sweden",
+            "India"
+          ]
+        },
+        "stage": "DPG"
+      },
+      {
+        "id": "x-road",
+        "name": "X-Road",
+        "description": "X-Road is open-source software and ecosystem solution that provides unified and secure data exchange between organisations.",
+        "website": "https://x-road.global/",
+        "license": [
+          {
+            "spdx": "MIT",
+            "licenseURL": "https://github.com/nordic-institute/X-Road/blob/develop/LICENSE"
+          }
+        ],
+        "SDGs": [
+          {
+            "SDGNumber": 1,
+            "evidenceText": "In order to ensure more universal and affordable access to digital services for the population of developing countries, X-Road has been introduced in multiple projects around the world. X-Road is open-source software and it provides developing countries with a national data exchange infrastructure without licensing fees. By implementing X-Road, countries avoid a vendor lock-in situation and get multiple channels for support, including a global community of users.",
+            "evidenceURL": "https://x-road.global/sustainability"
+          },
+          {
+            "SDGNumber": 3,
+            "evidenceText": "Different healthcare platforms can be connected securely with X-Road which enables data exchange between private and public service providers. All the evidence regarding the data exchange is stored locally by the data exchange parties, and no third parties have access to the data. Steps are being taken to introduce X-Road on a global basis, to allow either the World Health Organization (WHO) or its member states to set up various cross-border services to help the global community emerge faster from the COVID-19 health and economic crisis.",
+            "evidenceURL": "https://x-road.global/sustainability"
+          },
+          {
+            "SDGNumber": 7,
+            "evidenceText": "Energy efficiency, renewables and consumer centricity figure among the lines of action to boost the transition towards cleaner energy systems – ways of producing, delivering and consuming energy in a more sustainable way. The deployment of information technology has a significant impact on the feasibility of contemporary policy actions. X-Road is helping electricity grid operators by harmonising access to energy data. By simplifying access to data lets them focus on the solutions to achieve energy and climate goals.",
+            "evidenceURL": "https://x-road.global/sustainability"
+          },
+          {
+            "SDGNumber": 8,
+            "evidenceText": "X-Road enables reduction of administrative burdens by the implementation of the Once-Only Principle (TOOP). Streamlined administrative processes support economic growth and enable providing better services for the citizens. For example, in Estonia, X-Road saved 1,134 working years during the previous calendar year. X-Road helps a country to become a hassle-free environment for business and entrepreneurship, which also attracts foreign investments.",
+            "evidenceURL": "https://x-road.global/sustainability"
+          },
+          {
+            "SDGNumber": 9,
+            "evidenceText": "X-Road provides national core digital infrastructure for data exchange between organizations across administration sectors and business domains. Typically, the ecosystem is open for all kinds of organizations – both public and private sector organizations. Besides, X-Road can be used to implement cross-border data exchange with other countries. X-Road enables allocating resources for building digital services and fostering innovation, instead of integrating services point-to-point.",
+            "evidenceURL": "https://x-road.global/sustainability"
+          },
+          {
+            "SDGNumber": 11,
+            "evidenceText": "The use of digital services reduces the need to travel between different locations which reduces traffic in the cities. When travelling is needed, digital services provide information about different transportation and route alternatives and may prioritise the most environmentally friendly alternatives. X-Road is a crucial enabler that’s needed to make numerous information systems to communicate with each other. By establishing or joining an X-Road environment, cities and municipalities can request up-to-date information from relevant public registers and increase their effectiveness.",
+            "evidenceURL": "https://x-road.global/sustainability"
+          },
+          {
+            "SDGNumber": 13,
+            "evidenceText": "The Nordic Institute for Interoperability Solutions (NIIS) aims to develop X-Road the most sustainable data exchange solution in the world. NIIS is starting a project to improve the environmental footprint of the organisation, its procurements and development processes. In the end, the project should produce recommendations for improving the sustainability of X-Road as a product and advancing the sustainable use of X-Road when it comes to the energy consumption of an X-Road environment and the physical hardware components required to operate that.",
+            "evidenceURL": "https://x-road.global/sustainability"
+          },
+          {
+            "SDGNumber": 16,
+            "evidenceText": "X-Road is a solution to fight against corruption and helps in building trust towards institutions. X-Road provides log records of each message sent between X-Road ecosystem member organisations. The log records provide undeniable evidence of a transaction, and they could be used in process automation to reduce manual work, increase the level of automation in various processes and make things easier for both users of different information systems and citizens. X-Road also provides many features that are required from MyData platform technology.",
+            "evidenceURL": "https://x-road.global/sustainability"
+          }
+        ],
+        "sectors": [],
+        "type": [
+          "software"
+        ],
+        "repositoryURL": "https://github.com/nordic-institute/X-Road",
+        "organizations": [
+          {
+            "name": "Nordic Institute for Interoperability Solutions (NIIS)",
+            "website": "https://www.niis.org/",
+            "org_type": "owner"
+          }
+        ],
+        "locations": {
+          "developmentCountries": [
+            "Estonia",
+            "Finland"
+          ],
+          "deploymentCountries": [
+            "Estonia",
+            "Finland",
+            "Iceland",
+            "The Faroe Islands",
+            "Azerbaijan",
+            "Argentina",
+            "Cambodia",
+            "Colombia",
+            "El Salvador",
+            "Germany",
+            "Japan",
+            "Kyrgyztan",
+            "Palestine",
+            "Vietnam"
+          ]
+        },
+        "stage": "DPG"
+      }
+    
+
+
+
+  ]
