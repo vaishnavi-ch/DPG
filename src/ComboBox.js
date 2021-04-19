@@ -28,17 +28,18 @@ function ComboBox() {
           setQuery(value)
         }
         }
+      
       />
-      {/*
-        < Card className="infoBox">
-      <CardContent>
-        <div>{//query.id}</div>
-        <Typography color="textSecondary">{query.SDGs.map(element => {
-          return <div>SDG Number : {element.SDGNumber}</div>
-        })}</Typography>
-      </CardContent>
-      </Card>
-     */}  
+{/*
+< Card className="infoBox legend">
+        <CardContent>
+          <div>{//query.id}</div>
+          <Typography color="textSecondary">{query.SDGs.map(element => {
+            return <div>SDG Number : {element.SDGNumber}</div>
+          })}</Typography>
+        </CardContent>
+        </Card>
+        </Card>*/}
       </div>
   );
 }
