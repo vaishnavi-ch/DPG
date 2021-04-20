@@ -48,7 +48,7 @@
               "Kenya",
               "Germany",
               "Ireland",
-              "USA",
+              "United States",
               "Australia",
               "Mexico",
               "South Africa",
@@ -149,7 +149,7 @@
         "locations": {
             "developmentCountries": [
               "India",
-              "USA"
+              "United States"
             ],
             "deploymentCountries": [
               "India",
@@ -713,7 +713,7 @@
         "locations": {
           "developmentCountries": [
             "India",
-            "USA",
+            "United States",
             "Germany",
             "Africa",
             "Netherlands",
