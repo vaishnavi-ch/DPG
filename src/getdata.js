@@ -32,8 +32,8 @@ export function devCountries() {
   });
 
     console.log('chlooooooor')
-    console.log(arr_countries)
-    return arr_countries
+  console.log([ arr_countries, dev_countries ])
+  return [ arr_countries, dev_countries ]
 }
 
 export function depCountries() {
@@ -69,6 +69,6 @@ export function depCountries() {
 
     console.log('chlooooooor')
     console.log(arr_countries)
-    return arr_countries
+    return [arr_countries, dep_countries]
   }
 

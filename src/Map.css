@@ -23,12 +23,12 @@
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     padding: 20px;
     position: absolute;
-    right: 30px;
+    left: 30px;
     z-index: 1;
     visibility: visible;
 }
 
-.legend {
+#legend {
   background-color: #fff;
   border-radius: 10px;
   bottom: 30px;
@@ -36,14 +36,14 @@
   font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 20px;
   position: absolute;
-  left: 30px;
+  right: 30px;
   z-index: 1;
   visibility: visible;
 }
-.legend h4 {
+#legend h4 {
   margin: 0 0 10px;
 }
-.legend div span {
+#legend div span {
   border-radius: 50%;
   display: inline-block;
   height: 10px;
@@ -81,7 +81,8 @@
 }
 
 .mapboxgl-popup {
-  max-width: 20px;
+  max-width: 400px;
+  min-width: 100px;
   font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
   }
 
