@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import MapGL from 'react-map-gl';
 import mapboxgl from 'mapbox-gl';
 import ToggleButton from '@material-ui/lab/ToggleButton';
 import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
@@ -9,8 +8,6 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 import './Map.css';
 import { devCountries, depCountries } from './getdata.js';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { yellow } from '@material-ui/core/colors';
-//import ComboBox from './ComboBox';
 
 mapboxgl.accessToken  = 'pk.eyJ1Ijoic3Jpdi1jaCIsImEiOiJja25xYnIwaWUxd2RzMnFueHMxdTZmOG5uIn0.7GVQHVvZ_S8JzG2l4cI9PA';
 const data = require('./data.json');
@@ -220,12 +217,17 @@ const Map = () => {
         var toggle_dep = document.getElementById("depcountries");
         var toggle_pf = document.getElementById("pathfinders");
         var toggle_dpg = document.getElementById("DPG");
+        var legend_dev = document.getElementById("legend-dev");
+        var legend_dep = document.getElementById("legend-dep");
+       // var legend_pf = document.getElementById("pathfinders");
+        var legend_dpg = document.getElementById("legend-dpg");
         if (value == 'devcountries') {
           console.log(toggle_dev.style);
           toggle_dev.style.backgroundColor = '#fed976';
           toggle_dep.style.backgroundColor = 'white';
           toggle_pf.style.backgroundColor = 'white';
           toggle_dpg.style.backgroundColor = 'white';
+
           for (var i = 0; i <= 3; i++){
             map.setLayoutProperty(dev_id[i], 'visibility', 'visible');
             map.setLayoutProperty(dep_id[i], 'visibility', 'none');
@@ -234,9 +236,10 @@ const Map = () => {
           for (i = 0; i <= 1; i++){
             map.setLayoutProperty(dpg_layer_id[i], 'visibility', 'none');
           }
-          var x = document.getElementById("legend"); ;
-          console.log(x)
-          x.style.display = "none"
+          console.log(legend_dev)
+          legend_dev.style.visibility = "visible";
+          legend_dep.style.visibility = "hidden";
+          legend_dpg.style.visibility = "hidden";
         }
         else if (value == 'depcountries') {
           toggle_dev.style.backgroundColor = 'white';
@@ -251,8 +254,15 @@ const Map = () => {
           for (i = 0; i <= 1; i++){
             map.setLayoutProperty(dpg_layer_id[i], 'visibility', 'none');
           }
+          legend_dev.style.visibility = "hidden";
+          legend_dep.style.visibility = "visible";
+          legend_dpg.style.visibility = "hidden";
         }
         else if (value == 'pathfinders') {
+          toggle_dev.style.backgroundColor = 'white';
+          toggle_dep.style.backgroundColor = 'white';
+          toggle_pf.style.backgroundColor = '#8c96c6';
+          toggle_dpg.style.backgroundColor = 'white';
             map.setLayoutProperty('pathfinders', 'visibility', 'visible');
             for (i = 0; i <= 3; i++){
               map.setLayoutProperty(dep_id[i], 'visibility', 'none');
@@ -260,10 +270,17 @@ const Map = () => {
             }
             for (i = 0; i <= 1; i++){
               map.setLayoutProperty(dpg_layer_id[i], 'visibility', 'none');
-            }
+          }
+          legend_dev.style.visibility = "hidden";
+          legend_dep.style.visibility = "hidden";
+          legend_dpg.style.visibility = "hidden";
           }
 
         else {
+          toggle_dev.style.backgroundColor = 'white';
+          toggle_dep.style.backgroundColor = 'white';
+          toggle_pf.style.backgroundColor = 'white';
+          toggle_dpg.style.backgroundColor = 'yellow';
           for (i = 0; i <= 1; i++){
             map.setLayoutProperty(dpg_layer_id[i], 'visibility', 'visible');
           }
@@ -271,7 +288,10 @@ const Map = () => {
             map.setLayoutProperty(dep_id[i], 'visibility', 'none');
             map.setLayoutProperty(dev_id[i], 'visibility', 'none');
           }
-           map.setLayoutProperty('pathfinders', 'visibility', 'none');
+          map.setLayoutProperty('pathfinders', 'visibility', 'none');
+          legend_dev.style.visibility = "hidden";
+          legend_dep.style.visibility = "hidden";
+          legend_dpg.style.visibility = "visible";
          }
        }
         
@@ -334,7 +354,7 @@ const Map = () => {
         })}
        </div>
       </div>
-      <div id="legend" class = 'show'>
+      <div id="legend-dep" class = 'legend'>
         <h4>Total No. of DPGs :  </h4>
         <h4> No. of DPGs implemented  </h4>
         <div><span style={{ backgroundColor: '#0868ac' }}></span>greater than 45% </div>
@@ -342,7 +362,7 @@ const Map = () => {
         <div><span style={{ backgroundColor: '#7bccc4' }}></span>between 15 - 30%</div>
         <div><span style={{ backgroundColor: '#a8ddb5' }}></span>one </div>       
       </div>
-      <div id="legend" class = 'show'>
+      <div id="legend-dev" class = 'legend'>
         <h4>Total No. of DPGs :  </h4>
         <h4> No. of DPGs developed </h4>
         <div><span style={{ backgroundColor: '#fc4e2a' }}></span>greater than 45% </div>
@@ -350,7 +370,7 @@ const Map = () => {
         <div><span style={{ backgroundColor: '#feb24c' }}></span>between 15 - 30%</div>
         <div><span style={{ backgroundColor: '#fed976' }}></span>one </div>       
       </div>
-      <div id="legend" class = 'show'>
+      <div id="legend-dpg" class = 'legend'>
         <div><span style={{ backgroundColor: '#fc4e2a' }}></span>Developed</div>
         <div><span style={{ backgroundColor: '#fd8d3c' }}></span>Deployed</div>
       

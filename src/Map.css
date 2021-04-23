@@ -28,7 +28,7 @@
     visibility: visible;
 }
 
-#legend {
+.legend {
   background-color: #fff;
   border-radius: 10px;
   bottom: 30px;
@@ -38,12 +38,11 @@
   position: absolute;
   right: 30px;
   z-index: 1;
-  visibility: visible;
 }
-#legend h4 {
+.legend h4 {
   margin: 0 0 10px;
 }
-#legend div span {
+.legend div span {
   border-radius: 50%;
   display: inline-block;
   height: 10px;
@@ -72,13 +71,6 @@
   text-transform: capitalize ! important;
 }
 
-.show {
-  visibility: visible;
-}
-
-.hide {
-  visibility: hidden;
-}
 
 .mapboxgl-popup {
   max-width: 400px;
@@ -90,4 +82,8 @@
     padding: 10px;
     max-width: 300px;
     padding-top: 20px;
+  }
+
+  .hide {
+    visibility: hidden;
   }
