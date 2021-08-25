@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Map Visualization of UNICEF Digital Public Goods
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This project was created to visualize digital public good developments and implementations in various countries.
 
-In the project directory, you can run:
+Digital Public Goods (DPGs) are defined as “open source software, open data, open AI models, open standards, and open content that adhere to privacy and other applicable best practices, do no harm and are of high relevance for attaining the UN’s 2030 Sustainable Development Goals (SDGs)”.
 
-### `npm start`
+The goal of this project is to build a map visualization of multiple dimensions of data related to the geographic extent of digital public goods. The multiple dimensions come from aspects like:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1) countries in which a good was developed
+2) countries where the good has been implemented
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Configuration
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In order to run this application, you need to open an account with [Mapbox](https://www.mapbox.com/) to obtain an *Access Token*. The following [environment variable](https://nextjs.org/docs/basic-features/environment-variables) need to be set in `.env` or `.env.local`:
+```
+NEXT_PUBLIC_ACCESS_TOKEN="MAPBOX_ACCESS_TOKEN"
+```
 
-### `npm run build`
+## Development Environment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Setup your development environment as follows:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this repo:
+    - SSL:
+    ```bash
+    git clone git@github.com:vaishnavi-ch/DPG.git
+    ```
+    - HTTPS:
+    ```bash
+    git clone https://github.com/vaishnavi-ch/DPG.git
+    ```
+2. Install project dependencies:
+    ```bash
+    cd DPG
+    npm install
+    ```
+3. After having set up the proper [Configuration](#%EF%B8%8F-configuration), run the developmnet server with [fast refresh](https://nextjs.org/docs/basic-features/fast-refresh):
+    ```bash
+    npm run dev
+    ```
+## Output
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1) Chloropeth Map to visualize which country has developed the most DPGs
 
-### `npm run eject`
+![Screenshot (1181)](https://user-images.githubusercontent.com/66664653/130783195-dd3341f1-fa5a-4627-b09f-6eb6570d6e89.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2) Chloropeth Map to visualize which country has highest number DPGs deployed
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot (1182)](https://user-images.githubusercontent.com/66664653/130783199-2c39a4c9-4317-4c5f-8a7b-5a203f5fa538.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3) Search by DPG
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot (1183)](https://user-images.githubusercontent.com/66664653/130783204-38997bbc-e476-4b58-a938-d71fb506833a.png)
+![Screenshot (1184)](https://user-images.githubusercontent.com/66664653/130783207-c3547397-7cf2-41a1-a161-212037a40f4b.png)
